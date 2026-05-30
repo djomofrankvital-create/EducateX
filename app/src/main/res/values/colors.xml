@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="blue">#0050FF</color>
+    <color name="bleu_nuit">#0F172A</color>
+    <color name="color_conteneur">#1E293B</color>
+    <color name="color_bordure">#334155</color>
+    <color name="bottom_color">#38BDF8</color>
+    <color name="color_statut">#4ADE80</color>
+    <color name="echoué_statut">#F87171</color>
+    <color name="text_color">#F8FAFC</color>
+    <color name="text_secondaire">#94A3B8</color>
+</resources>

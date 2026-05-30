@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Gestion des notes</string>
+    <!--Splashactivity-->
+    <string name="Splashname">Educate X</string>
+    <string name="text_bienvenu">Bienvenue dans notre application</string>
+    <string name="text_create_account">CREER UN COMPTE</string>
+    <string name="text_account">Pour profiter d\'une experience utilisateur hors du communs, il faut que vous vous créez ou vous vous
+    connectez à un compte déjà existant</string>
+    <string name="button_ins">Register</string>
+    <string name="button_con">Login</string>
+    <string name="page_ins">Inscription</string>
+    <string name="placeholder_name">Entre ton nom</string>
+    <string name="placeholder_adress">Entre ton adresse Email</string>
+    <string name="placeholder_password">Entre ton mot de passe</string>
+    <string name="placeholder_confirm_password">Confirme ton mot de passe</string>
+    <string name="button_inscription">S\'inscrire</string>
+    <string name="info">Si vous avez déjà un compte redirigez-vous vers la page précédente</string>
+    <string name="page_connexion">Connexion</string>
+    <string name="page_connexion_text">Pour pouvoir acceder à l\'application, il vous faut remplir ces champs</string>
+    <string name="page_connexion_placeholder_adresse">Entre ton adresse Email</string>
+    <string name="page_connexion_placeholder_adress">Entre ton mot de passe</string>
+    <string name="button_connexion">Se Connecter</string>
+    <string name="page_connecion_text_fin">Allons y pour profiter de l\'application</string>
+    <string name="home_search_text">Recherche un etudiant...</string>
+    <string name="nom_application">Educate X</string>
+    <string name="home_section_popular">Menu Populaire</string>
+    <string name="home_section_explore">Tous les Etudiants</string>
+
+</resources>

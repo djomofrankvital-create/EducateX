@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/text_color"
+    tools:context="com.Principal">
+
+    <LinearLayout
+        android:id="@+id/topBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentTop="true"
+        android:padding="16dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/nom_application"
+            android:textSize="22sp"
+            android:textColor="@color/blue"
+            android:padding="10dp"
+            android:textStyle="bold"/>
+    </RelativeLayout>
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="12dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5sp">
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:background="@drawable/bg_search"
+            android:layout_weight="1"
+            android:hint="@string/home_search_text"
+            android:elevation="4dp"
+            android:drawableTint="@color/echoué_statut"
+            android:drawableStart="@drawable/search"
+            android:paddingStart="10dp"
+            android:textColor="@color/black"
+            android:drawablePadding="12dp"
+            android:textColorHint="@color/text_secondaire"
+            android:inputType="text"
+            android:textSize="16sp"/>
+
+    </LinearLayout>
+    </LinearLayout>
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/topBar"
+        android:fillViewport="true">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/home_section_explore"
+                android:layout_marginStart="10dp"
+                android:textColor="@color/blue"
+                android:layout_marginBottom="10dp"
+                android:padding="10dp"
+                android:textStyle="bold"
+                android:textSize="20dp"/>
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rvEleve"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                android:layout_marginStart="10dp"/>
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</RelativeLayout>
